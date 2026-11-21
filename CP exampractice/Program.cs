@@ -75,8 +75,57 @@ namespace CP_exampractice
             Console.WriteLine(tdate);
             Console.WriteLine(tdate2);
             Console.WriteLine(tdate3);
+            Console.WriteLine(" ");
 
             //boolean data type has two ==> true and false
+            bool failed, passed;
+            failed = false;
+            passed = true;
+            Console.WriteLine(failed + " or " + passed+ " ? ");
+            Console.WriteLine(" ");
+
+            //operator
+            Console.WriteLine("---Operators---");
+            int ages = 20;
+            ages++; //means age + 1, can only increment 1    
+            Console.WriteLine(ages);
+
+            ages--; //mean age - 1
+            Console.WriteLine(ages); //output will be still 20 because it was added in the first time and then subtract in the second time
+
+            //can also write like this
+            int grade = 80;
+            grade += 3; // these can be increment by any number
+            Console.WriteLine(grade);
+
+            grade -= 1;
+            Console.WriteLine(grade);
+
+            // '*' means mulitply. '/' means divide the divide sign only will show integer format because the variable type is Integer.
+            double result = 103;
+            result /= 10;
+            Console.WriteLine(result);  //to get decimal result we need to declare double or float or decimal data type
+            Console.WriteLine(" ");
+
+            string name2= "Vera";
+            name2 += " is my name";
+            Console.WriteLine(name2);
+            //but we can't subtract a string. it is hard for the system to do that function.
+
+            //we can also add for the char type
+            char order = 'a';
+            order += 'b';
+            Console.WriteLine(order); //it will combine both a and b into unicode format and add the value based on that
+
+
+
+
+
+
+
+
+
+
 
 
 
